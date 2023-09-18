@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/car-rent-project/static/css/main.be8245ec.css",
-    "main.js": "/car-rent-project/static/js/main.786dffc4.js",
+    "main.js": "/car-rent-project/static/js/main.ed0664e7.js",
     "static/media/car-4036153_1280.jpg": "/car-rent-project/static/media/car-4036153_1280.b472a5fc51b43c2d21ce.jpg",
     "static/media/Manrope-ExtraBold.ttf": "/car-rent-project/static/media/Manrope-ExtraBold.5b0ae7100ad1d12e53c9.ttf",
     "static/media/Manrope-SemiBold.ttf": "/car-rent-project/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
@@ -9,10 +9,10 @@
     "static/media/image_23.jpg": "/car-rent-project/static/media/image_23.9f4ddff4e285497d836e.jpg",
     "index.html": "/car-rent-project/index.html",
     "main.be8245ec.css.map": "/car-rent-project/static/css/main.be8245ec.css.map",
-    "main.786dffc4.js.map": "/car-rent-project/static/js/main.786dffc4.js.map"
+    "main.ed0664e7.js.map": "/car-rent-project/static/js/main.ed0664e7.js.map"
   },
   "entrypoints": [
     "static/css/main.be8245ec.css",
-    "static/js/main.786dffc4.js"
+    "static/js/main.ed0664e7.js"
   ]
 }
