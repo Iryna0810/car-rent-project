@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import { AiOutlineHeart } from 'react-icons/ai';
+import { AiOutlineHeart } from 'react-icons/ai';
 import { LiStyled, Text, TextModal, Item, Button, CardContainer, Span, AdressCardContainer } from '../styled';
 import { Modal } from '../Modal/Modal';
 
@@ -11,7 +11,7 @@ export const CarItem = ({ car, handleFavoriteCarList }) => {
     setShowModal(!showModal)
   }
 
-  
+
   const { id, year, make, model, type, img, description, accessories, rentalPrice, rentalCompany, address, rentalConditions, mileage } = car;
 
   return (
@@ -49,7 +49,7 @@ export const CarItem = ({ car, handleFavoriteCarList }) => {
       </Modal>)}
 
       <LiStyled key={id} className="ImageGalleryItem" >
-{/*                     
+                    
                     <AiOutlineHeart data-id={id} fill='white' style={{
                         width: '18',
                         height: '18',
@@ -59,7 +59,7 @@ export const CarItem = ({ car, handleFavoriteCarList }) => {
                         cursor: 'pointer',
                     }}
                         onClick={(e) => handleFavoriteCarList(e)}
-                    /> */}
+                    />
                     <Item src={img} alt='car {id}' ></Item>
                     <CardContainer>
                     <p>{make} <Span>{model}</Span>, {year}</p>
