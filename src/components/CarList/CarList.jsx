@@ -53,9 +53,7 @@ const CarList = () => {
 
         if (carId) {
             const searchCar = cars.find(car => Number(car.id) === carId);
-            console.log(searchCar);
             const isFavoriteId = carsAllFavorite.find(car => Number(car.id) === carId);
-            console.log(isFavoriteId);
             !isFavoriteId
                 ? setCarsAllFavorite(carList => [...carList, searchCar])
                 : setCarsAllFavorite((carList) => carsAllFavorite.filter(car => Number(car.id) !== carId))
