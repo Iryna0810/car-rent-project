@@ -1,11 +1,11 @@
 import React from "react"
-import { Title } from '../components/styled'
+// import { Title } from '../components/styled'
 import '../index.css';
 import { useEffect, useState } from "react";
-import {getAllCars} from '../components/CarList/services';
-import { AiOutlineHeart } from 'react-icons/ai'
+// import {getAllCars} from '../components/CarList/services';
+// import { AiOutlineHeart } from 'react-icons/ai'
 import { CarItem } from "../components/CarItem/CarItem";
-import { LiStyled, Text, ListStyled, Item, Button, CardContainer, Span, AdressCardContainer } from '../components/styled';
+import {ListStyled } from '../components/styled';
 
 const useLocalStorage = (key, defaultValue) => {
   const parseCars = JSON.parse(window.localStorage.getItem(key));
