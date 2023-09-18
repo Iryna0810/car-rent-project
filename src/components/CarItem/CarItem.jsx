@@ -12,7 +12,7 @@ export const CarItem = ({ car, handleFavoriteCarList }) => {
   }
 
 // { id, year, make, model, type, img, description, fuelConsumption, engineSize, accessories, functionalities, rentalPrice, rentalCompany, address, rentalConditions, mileage }
-  const { id, year, make, model, type, img, description, fuelConsumption, engineSize, accessories, functionalities, rentalPrice, rentalCompany, address, rentalConditions, mileage } = car;
+  const { id, year, make, model, type, img, description, accessories, rentalPrice, rentalCompany, address, rentalConditions, mileage } = car;
 
   return (
     <>
